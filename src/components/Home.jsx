@@ -17,7 +17,7 @@ function Home() {
             <button></button><p>get your card</p>
           </div>
           <div>
-              <div ></div>
+              <div></div>
           </div>
 
         </div>
