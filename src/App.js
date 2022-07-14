@@ -4,9 +4,8 @@ import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className='bg-[#F8FCFF] w-full h-screen'>
+    <div className='bg-[#F8FCFF] w-full h-screen '>
       <Home/>
-      <Navbar />
     </div>
   )
 }
