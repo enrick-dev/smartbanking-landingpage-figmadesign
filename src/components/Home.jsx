@@ -13,12 +13,12 @@ function Home() {
         <div  className='px-3 pt-[105px] grid grid-cols-12 gap-4  bg-[#F8FCFF] w-screen max-w-[1300px]  items-center justify-between  '>
           
           <div className=' col-span-5 pt-5'>
-            <h1 id='titlebank' className='text-[#222223] text-[85px] font-bold leading-10'>Banking </h1>
-            <h1 id='titlebank' className='text-[#222223] text-[85px] font-bold'>more smart</h1>
-            <p className='pt-7 text-[20px] font-normal tracking-tight leading-8 text-[#535354] '>Meet the only spend management <br/> platform and corporate card.</p>
+            <h1 id='titlebank' className='text-[#222223] text-[85px] font-bold leading-10 cursor-default'>Banking </h1>
+            <h1 id='titlebank' className='text-[#222223] text-[85px] font-bold cursor-default'>more smart</h1>
+            <p className='pt-7 text-[#535354] text-[20px] font-normal tracking-tight leading-8 cursor-default'>Meet the only spend management <br/> platform and corporate card.</p>
             <div className='mt-11 flex items-center'>
               <button className='bg-[#222223] border-[#222223] border-2 p-4 '><FaLongArrowAltRight className='text-[18px] text-[#F3FAFE]'/></button>
-              <p className='text-[#222223] indent-5 text-[20px] font-medium'>Get your card</p>
+              <p className='text-[#222223] indent-5 text-[20px] font-medium cursor-default'>Get your card</p>
             </div>
           </div>
           {/* 80D1FF */}
