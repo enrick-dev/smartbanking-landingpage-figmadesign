@@ -5,8 +5,8 @@ import { HiColorSwatch, HiOutlineShoppingBag, HiTranslate } from "react-icons/hi
 function Navbar() {
   return (
     
-      <div className=' flex flex-row mb-[100px] bg-[#F8FCFF] w-screen max-w-[1300px]  items-center justify-between h-[50px]  '>
-          <ul className='flex flex-row  uppercase font-bold font text-[15px] text-[#5b5b5b] '>
+      <div className=' px-3 flex flex-row bg-[#F8FCFF] w-screen max-w-[1300px]  items-center justify-between h-[50px]  '>
+          <ul className='flex flex-row uppercase tracking-normal font-semibold text-[15px] text-[#5b5b5b] '>
               <li className='cursor-pointer'>about</li>
               <li className='indent-12 cursor-pointer'>how it works</li>
               <li className='indent-12 cursor-pointer'>contact</li>
