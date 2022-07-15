@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;500&display=swap');
+@layer base {
+    #titlebank {
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+}
