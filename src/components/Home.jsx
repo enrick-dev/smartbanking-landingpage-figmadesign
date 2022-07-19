@@ -37,9 +37,9 @@ function Home() {
 
           {/* Container do Card*/}
           <div className='pl-4 pt-8 col-span-7 grid grid-cols-12 w-full h-full '>
-              <div className='bg-gradient-to-r from-[#80D1FF] to-[#44B2F1] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
+              <div className='bg-gradient-to-br from-[#80D1FF] to-[#44B2F1] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
                 {/* Card */}
-                <div className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem]'>
+                <div className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-2xl'>
 
                   <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
                     <div className='flex items-center justify-between pl-6 pr-10 h-full w-full'>
@@ -81,7 +81,7 @@ function Home() {
 
 
               {/* Container dos botões */}
-              <div className='bg-gradient-to-b from-[#FFD968] to-[#FAC422] col-span-4 rounded-r-md'>
+              <div className='bg-gradient-to-bl from-[#FFD968] to-[#FAC422] col-span-4 rounded-r-md'>
                 {/* Botões */}
               </div>
           </div>
