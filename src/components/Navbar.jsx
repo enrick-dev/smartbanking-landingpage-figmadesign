@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/imgs/Besniklogo.svg'
+import Logo from '../assets/Home/Nav/Besniklogo.svg'
 import { HiColorSwatch, HiOutlineShoppingBag, HiTranslate } from "react-icons/hi";
 
 function Navbar() {

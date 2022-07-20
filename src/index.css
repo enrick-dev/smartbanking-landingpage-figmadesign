@@ -15,10 +15,10 @@
         box-shadow: 41px 39px 50px 31px rgba(0,0,0,0.08);
     }
     #card:hover {
-        animation: bounce 1s infinite;
+        animation: bounceCard 1s infinite;
 
     }
-    @keyframes bounce {
+    @keyframes bounceCard {
         0%, 100% {
             transform: translate(-0.25, -1rem);
             animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
@@ -27,5 +27,20 @@
             transform: rotate(-15deg);
             animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
         }
+    }
+    #buttom:hover {
+        animation: buttomHomeAnimate 2s 1;
+    }
+    @keyframes buttomHomeAnimate {
+        0%, 100% {
+            transform: rotate(0deg);
+        }
+        70% {
+            transform: translateX(-0.25rem);
+        }
+        35% {
+            transform: translateX(0.25rem);
+        }
+
     }
 }
