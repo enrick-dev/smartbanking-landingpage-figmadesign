@@ -41,7 +41,7 @@ function Home() {
           <div className='pl-4 pt-8 col-span-7 grid grid-cols-12 w-full h-full '>
               <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
                 {/* Card */}
-                <div id='card' className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg]'>
+                <div id='card' className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem]'>
 
                   <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
                     <div className='flex items-center justify-between pl-6 pr-10 h-full w-full'>

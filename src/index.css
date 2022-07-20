@@ -21,12 +21,10 @@
     @keyframes bounce {
         0%, 100% {
             transform: translate(-0.25, -1rem);
-            transform: rotate(-25deg);
             animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
         }
         50% {
-            transform: translate(-0.25, -1rem);
-            transform: rotate(-10deg);
+            transform: rotate(-15deg);
             animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
         }
     }
