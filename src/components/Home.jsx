@@ -13,9 +13,7 @@ import IconHand from '../assets/Home/Buttons/hand.svg';
 import IconInfo from '../assets/Home/Buttons/info.svg';
 import IconInfo2 from '../assets/Home/Buttons/info2.svg';
 import Fire from '../assets/Home/Group/fire.svg';
-import Group1 from '../assets/Home/Group/image1.svg';
-import Group2 from '../assets/Home/Group/image2.svg';
-import Group3 from '../assets/Home/Group/image3.svg';
+import GroupImg from '../assets/Home/Group/GroupImg.svg';
 
 
 import {React, useRef} from 'react'
@@ -127,12 +125,14 @@ function Home() {
           </div>
 
 
-          <div className='mt-[125px] flex'>
+          <div className='mt-[135px] flex'>
 
             <div className=' '>
               <div>
-                <h1 className=''>Hot</h1><img src={Fire} alt=""  className=''/>
-                <h1 className=''>deals for you</h1>
+                <div className='flex items-center h-10'>
+                  <h1 id='groupTitle' className='text-[38px] font-bold'>Hot</h1> <img src={Fire} alt=""/>
+                </div>
+                <h1 id='groupTitle' className='text-[38px] font-bold '>deals for you</h1>
               </div>
               <div>
                 <p>Online shopping for retail sales direct to consumers</p>
@@ -141,17 +141,17 @@ function Home() {
 
             <div className='flex'>
               <div>
-                <img src={Group1} alt="" />
+                <img src={GroupImg} alt="" />
                 <h3>1.5% cashback</h3>
                 <p>Online shopping for retail sales direct to consumers</p>
               </div>
               <div>
-                <img src={Group2} alt="" />
+                <img src={GroupImg} alt="" />
                 <h3>30-day terms</h3>
                 <p>Online shopping for retail sales direct to consumers</p>
               </div>
               <div>
-                <img src={Group3} alt="" />
+                <img src={GroupImg} alt="" />
                 <h3>Save Money</h3>
                 <p>Online shopping for retail sales direct to consumers</p>
               </div>
