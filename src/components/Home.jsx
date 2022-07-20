@@ -6,11 +6,13 @@ import n5 from '../assets/imgs/Card/5.svg';
 import n6 from '../assets/imgs/Card/6.svg';
 import n7 from '../assets/imgs/Card/7.svg';
 import n8 from '../assets/imgs/Card/8.svg';
-import React from 'react'
+import {React, useRef} from 'react'
 import Navbar from './Navbar'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import Chip from '../assets/imgs/Card/Chip.svg';
-import Visa from '../assets/imgs/Card/Visa.svg'
+import Visa from '../assets/imgs/Card/Visa.svg';
+import Ola from './ola.svg';
+import { BiPlay } from "react-icons/bi";
 
 
 
@@ -37,9 +39,9 @@ function Home() {
 
           {/* Container do Card*/}
           <div className='pl-4 pt-8 col-span-7 grid grid-cols-12 w-full h-full '>
-              <div className='bg-gradient-to-br from-[#80D1FF] to-[#44B2F1] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
+              <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
                 {/* Card */}
-                <div className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-2xl'>
+                <div id='card' className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg]'>
 
                   <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
                     <div className='flex items-center justify-between pl-6 pr-10 h-full w-full'>
@@ -75,8 +77,17 @@ function Home() {
                     </div>
                   </div>
 
-
                 </div>
+
+                {/* Texto Circular */}
+                <div className='relative flex justify-end pr-8 translate-y-[-3rem]'>
+                  <div className='absolute h-[120px] w-[120px] flex justify-center items-center'>
+                    <BiPlay className='absolute text-[#254C63]'/>
+                    <img src={Ola} alt=" relative TextCircle" className='animate-spin-slow ' />
+                  </div>
+                </div>
+
+
               </div>
 
 
@@ -92,5 +103,8 @@ function Home() {
     </div>
   )
 }
+
+
+
 
 export default Home

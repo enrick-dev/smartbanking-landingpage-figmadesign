@@ -11,4 +11,23 @@
     #titlebank {
         font-family: 'Bai Jamjuree', sans-serif;
     }
+    #card {
+        box-shadow: 41px 39px 50px 31px rgba(0,0,0,0.08);
+    }
+    #card:hover {
+        animation: bounce 1s infinite;
+
+    }
+    @keyframes bounce {
+        0%, 100% {
+            transform: translate(-0.25, -1rem);
+            transform: rotate(-25deg);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+            transform: translate(-0.25, -1rem);
+            transform: rotate(-10deg);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+    }
 }

@@ -1,0 +1,25 @@
+                <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+                    <title>Caminho de texto circular </title>
+                    <style>
+                        text {
+                            font-size: 60px;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: bold;
+                            font-variant: small-caps;
+                            font-variant-ligatures: none;
+                            stroke-width: 1.5px;
+                            fill: #254C63;
+                        }
+                    </style>
+                    <defs>
+                        <path id="textcircle"
+                              d="M250,400
+                                a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                              />
+                    </defs>
+                    <text>
+                        <textPath xlink:href="#textcircle"
+                                  textLength="942">&#160;WORKSEE • HOW • IT • </textPath>
+                    </text>
+                </svg>
