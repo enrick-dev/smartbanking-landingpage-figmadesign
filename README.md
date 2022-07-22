@@ -1,15 +1,13 @@
 # Front-end Page usando design do Figma
+## Totalmente programado em React JS e Tailwindcss
 
 
+### `Design da pagina`
+Desenvolvido no Figma e distribuido gratuitamente na Internet
+Direitos Autorais:[Saleh Ahmed ](https://www.figma.com/@salehahmed)
 
-Design da pagina-Figma:
  [Dwonload ](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
