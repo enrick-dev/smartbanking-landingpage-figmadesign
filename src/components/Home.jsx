@@ -92,7 +92,7 @@ function Home() {
                     </div>
 
                   </div>
-
+                    
                   {/* Texto Circular */}
                   <div className='relative flex justify-end pr-8 translate-y-[-3rem]'>
                     <div className='absolute h-[120px] w-[120px] flex justify-center items-center'>
