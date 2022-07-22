@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;500;600;700&display=swap');
 @layer base {
@@ -11,15 +12,8 @@
     #titlebank {
         font-family: 'Bai Jamjuree', sans-serif;
     }
-    #groupTitle {
-        font-family: 'Bai Jamjuree', sans-serif;
-    }
-    #card {
-        box-shadow: 41px 39px 50px 31px rgba(0,0,0,0.08);
-    }
-    #card:hover {
-        animation: bounceCard 1s infinite;
-
+    #titlegroup {
+        font-family: 'Inter', sans-serif;
     }
     @keyframes bounceCard {
         0%, 100% {
@@ -30,9 +24,6 @@
             transform: rotate(-15deg);
             animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
         }
-    }
-    #buttom:hover {
-        animation: buttomHomeAnimate 2s 1;
     }
     @keyframes buttomHomeAnimate {
         0%, 100% {

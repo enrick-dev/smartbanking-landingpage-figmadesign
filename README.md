@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# Front-end Page usando design do Figma
+## Totalmente programado em React JS e Tailwindcss
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### `Design da pagina`
+Desenvolvido no Figma e distribuido gratuitamente na Internet\
+Direitos Autorais: [Saleh Ahmed ](https://www.figma.com/@salehahmed)
+
+<img src="./src/assets/Design/designfigma.png" alt="" />
+
+ [Download ](https://github.com/facebook/create-react-app)
+
+
 
 In the project directory, you can run:
 

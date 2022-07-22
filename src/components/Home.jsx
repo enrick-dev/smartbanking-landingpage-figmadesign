@@ -46,7 +46,7 @@ function Home() {
               <h1 id='titlebank' className='text-[#222223] text-[85px] font-bold leading-[5rem] xl:leading-normal cursor-default'>more smart</h1>
               <p className='pt-7 text-[#535354] text-[20px] font-normal tracking-tight leading-8 cursor-default'>Meet the only spend management <br/> platform and corporate card.</p>
               <div className='mt-11 flex items-center'>
-                <button className='bg-[#222223] border-[#222223] border-2 p-4 '><FaLongArrowAltRight className='text-[18px] text-[#F3FAFE]'/></button>
+                <button className='bg-[#222223] border-[#222223] border-2 p-4 '><FaLongArrowAltRight className='text-[18px] text-[#F3FAFE] animate-buttomHome'/></button>
                 <p className='text-[#222223] indent-5 text-[20px] font-medium cursor-default'>Get your card</p>
               </div>
             </div>
@@ -55,7 +55,7 @@ function Home() {
             <div className='pl-4 pt-8 md:col-span-7 grid md:grid-cols-12 w-full h-full '>
                 <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
                   {/* Card */}
-                  <div id='card' className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem]'>
+                  <div className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
 
                     <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
                       <div className='flex items-center justify-between pl-6 pr-10 h-full w-full'>
@@ -97,7 +97,7 @@ function Home() {
                   <div className='relative flex justify-end pr-8 translate-y-[-3rem]'>
                     <div className='absolute h-[120px] w-[120px] flex justify-center items-center'>
                       <BiPlay className='absolute text-[#254C63]'/>
-                      <img src={Ola} alt=" relative TextCircle" className='animate-spin-slow ' />
+                      <img src={Ola} alt=" relative TextCircle" className='animate-spinSlow ' />
                     </div>
                   </div>
 
@@ -110,12 +110,12 @@ function Home() {
                   {/* Botões */}
                   <div className='flex justify-center items-center h-full w-full'>
                     <div className=' grid grid-cols-2 indent-12'>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] text-[#84848D]'><img src={IconCard} alt="" id='buttom' className='text-[23px] absolute'/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] text-[#84848D] '><img src={IconInfo} alt="" id='buttom' className='text-[26px] absolute '/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] text-[#84848D] '><img src={IconForm} alt="" id='buttom' className='text-[35px] absolute '/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] text-[#fff] '><img src={IconHand} alt="" id='buttom' className='text-[35px] absolute '/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] text-[#fff] '><img src={IconEmail} alt="" id='buttom' className='text-[35px] absolute '/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] text-[#84848D] '><img src={IconInfo2} alt="" id='buttom' className='text-[35px] absolute '/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconCard} alt="" className='absolute group-hover:animate-buttomHome'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo} alt="" className='absolute group-hover:animate-buttomHome'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconForm} alt="" className='absolute group-hover:animate-buttomHome'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] group'><img src={IconHand} alt="" className='absolute group-hover:animate-buttomHome'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] group'><img src={IconEmail} alt="" className='absolute group-hover:animate-buttomHome'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo2} alt="" className='absolute group-hover:animate-buttomHome'/></div>
                     </div>
                   </div>
                 </div>
@@ -124,36 +124,36 @@ function Home() {
 
           </div>
 
+          
+          <div className='mt-[110px] grid md:grid-cols-6'>
 
-          <div className='mt-[135px] flex'>
-
-            <div className=' '>
+            <div className='col-span-2 pt-[20px] flex flex-col justify-around'>
               <div>
                 <div className='flex items-center h-10'>
-                  <h1 id='groupTitle' className='text-[38px] font-bold'>Hot</h1> <img src={Fire} alt=""/>
+                  <h1 id='titlebank' className='text-[38px] font-bold text-[#222223]'>Hot</h1> <img src={Fire} alt=""/>
                 </div>
-                <h1 id='groupTitle' className='text-[38px] font-bold '>deals for you</h1>
+                <h1 id='titlebank' className='text-[38px] font-bold text-[#222223] '>deals for you</h1>
               </div>
               <div>
-                <p>Online shopping for retail sales direct to consumers</p>
+                <p className='text-[16] font-normal text-[#5F5F64]'>Online shopping for retail sales <br/> direct to consumers</p>
               </div>
             </div>
 
-            <div className='flex'>
-              <div>
-                <img src={GroupImg} alt="" />
-                <h3>1.5% cashback</h3>
-                <p>Online shopping for retail sales direct to consumers</p>
+            <div className='col-span-4 flex flex-col md:flex-row justify-between'>
+              <div className='flex flex-col justify-around h-[200px]'>
+                <img src={GroupImg} alt="" className='w-9'/>
+                <h3 id='titlegroup' className='text-[20px] font-extrabold tracking-wide text-[#17181A]'>1.5% cashback</h3>
+                <p className='text-[16] font-normal text-[#5F5F64]'>Online shopping for retail <br/> sales direct to consumers</p>
               </div>
-              <div>
-                <img src={GroupImg} alt="" />
-                <h3>30-day terms</h3>
-                <p>Online shopping for retail sales direct to consumers</p>
+              <div className='flex flex-col justify-around h-[200px]'>
+                <img src={GroupImg} alt="" className='w-9'/>
+                <h3 id='titlegroup' className='text-[20px] font-extrabold tracking-wide text-[#17181A]'>30-day terms</h3>
+                <p className='text-[16] font-normal text-[#5F5F64]'>Online shopping for retail <br/> sales direct to consumers</p>
               </div>
-              <div>
-                <img src={GroupImg} alt="" />
-                <h3>Save Money</h3>
-                <p>Online shopping for retail sales direct to consumers</p>
+              <div className='flex flex-col justify-around h-[200px]'>
+                <img src={GroupImg} alt="" className='w-9'/>
+                <h3 id='titlegroup' className='text-[20px] font-extrabold tracking-wide text-[#17181A]'>Save Money</h3>
+                <p className='text-[16] font-normal text-[#5F5F64]'>Online shopping for retail <br/> sales direct to consumers</p>
               </div>
             </div>
           </div>

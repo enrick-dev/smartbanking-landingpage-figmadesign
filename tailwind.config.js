@@ -6,7 +6,13 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 10s linear infinite',
+        'bounceCard': 'bounceCard 1s linear infinite',
+        'spinSlow': 'spin 10s linear infinite',
+        'buttomHome': 'buttomHomeAnimate 2s 1',
+        'buttomHome2': 'buttomHomeAnimate 2s linear 1',
+      },
+      boxShadow: {
+        'cardShadow': '41px 39px 50px 31px rgba(0,0,0,0.08)',
       }
     },
   },
