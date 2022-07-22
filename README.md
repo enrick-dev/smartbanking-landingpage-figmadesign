@@ -3,7 +3,7 @@
 
 
 ### `Design da pagina`
-Desenvolvido no Figma e distribuido gratuitamente na Internet
+Desenvolvido no Figma e distribuido gratuitamente na Internet\
 Direitos Autorais:[Saleh Ahmed ](https://www.figma.com/@salehahmed)
 
  [Dwonload ](https://github.com/facebook/create-react-app).
