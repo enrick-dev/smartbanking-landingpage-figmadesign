@@ -5,7 +5,7 @@ Pagina em desenvolvimento
 
 ### `Design da pagina`
 Desenvolvido no Figma e distribuido gratuitamente na Internet\
-Direitos Autorais: [Saleh Ahmed ](https://www.figma.com/@salehahmed)
+Direitos Autorais do Design: [Saleh Ahmed ](https://www.figma.com/@salehahmed)
 
 <img src="./src/assets/Design/designfigma.png" alt="" />
 
