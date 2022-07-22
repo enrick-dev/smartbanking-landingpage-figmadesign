@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Front-end Page usando design do Figma
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+Design da pagina-Figma:
+ [Dwonload ](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
