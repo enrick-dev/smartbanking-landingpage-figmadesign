@@ -6,9 +6,10 @@
 Desenvolvido no Figma e distribuido gratuitamente na Internet\
 Direitos Autorais: [Saleh Ahmed ](https://www.figma.com/@salehahmed)
 
-<img src="./assets/smart-banking.jpg" alt="" />
+<img src="./src/assets/Design/designfigma.png" alt="" />
 
- [Dwonload ](https://github.com/facebook/create-react-app)
+ [Download ](https://github.com/facebook/create-react-app)
+
 
 
 Runs the app in the development mode.\
