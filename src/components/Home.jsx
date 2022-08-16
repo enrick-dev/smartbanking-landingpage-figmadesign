@@ -36,10 +36,10 @@ function Home() {
         {/* Navbar */}
         <Navbar className=' md:hidden'/>
         {/* Home */}
-        <div  className='px-3 pt-[105px] bg-[#F8FCFF] w-screen max-w-[1300px] items-center justify-between  '>
+        <div  className='px-4 pt-[105px] bg-[#F8FCFF] w-screen max-w-[1300px] items-center justify-between  '>
           
           {/* Container Title e card  */}
-          <div className='grid md:grid-cols-12 gap-4'>
+          <div className='grid lg:grid-cols-12 gap-4'>
 
             <div className=' md:col-span-5 pt-5'>
               <h1 id='titlebank' className='text-[#222223] text-[85px] font-bold leading-[5rem] xl:leading-10 cursor-default'>Banking </h1>
@@ -52,10 +52,10 @@ function Home() {
             </div>
 
             {/* Container do Card*/}
-            <div className='pl-4 pt-8 md:col-span-7 grid md:grid-cols-12 w-[95%] md:w-full h-[800px] md:h-full'>
+            <div className=' pt-8 md:col-span-7 grid md:grid-cols-12 w-full md:w-full h-[500px] md:h-full'>
                 <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-4 md:col-span-8 rounded-t-md md:rounded-l-md md:border-r-2 border-[#3288B9]'>
                   {/* Card */}
-                  <div className='grid grid-rows-7 w-[195px] h-[120px] md:w-[390px] md:h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
+                  <div className='grid grid-rows-7 w-[195px] h-[120px] md:w-[390px] md:h-[240px] rotate-[-25deg] translate-y-[1rem] md:translate-y-[-1rem] translate-x-[0.5rem] md:translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
 
                     <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
                       <div className='flex items-center justify-between pl-3 pr-5 md:pl-6 md:pr-10 h-full w-full'>
@@ -94,8 +94,8 @@ function Home() {
                   </div>
                     
                   {/* Texto Circular */}
-                  <div className='relative flex justify-end pr-8 translate-y-[-3rem]'>
-                    <div className='absolute h-[120px] w-[120px] flex justify-center items-center'>
+                  <div className='relative flex justify-end pr-16 md:pr-8 translate-y-[-3rem]'>
+                    <div className='absolute h-[100px] w-[100px] md:h-[120px] md:w-[120px] flex justify-center items-center'>
                       <BiPlay className='absolute text-[#254C63]'/>
                       <img src={Ola} alt=" relative TextCircle" className='animate-spinSlow ' />
                     </div>
@@ -109,7 +109,7 @@ function Home() {
                 <div className='bg-gradient-to-bl from-[#FFD968] to-[#FAC422] col-span-4 rounded-b-md md:rounded-r-md'>
                   {/* Botões */}
                   <div className='flex justify-center items-center h-full w-full'>
-                    <div className=' grid grid-cols-2 indent-12'>
+                    <div className=' grid grid-rows-2 md:grid-cols-2 grid-flow-col md:grid-flow-row indent-12'>
                       <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconCard} alt="" className='absolute group-hover:animate-buttomHome'/></div>
                       <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo} alt="" className='absolute group-hover:animate-buttomHome'/></div>
                       <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconForm} alt="" className='absolute group-hover:animate-buttomHome'/></div>
