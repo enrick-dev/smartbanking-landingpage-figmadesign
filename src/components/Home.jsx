@@ -52,8 +52,8 @@ function Home() {
             </div>
 
             {/* Container do Card*/}
-            <div className='pl-4 pt-8 md:col-span-7 grid md:grid-cols-12 w-full h-[800px] md:h-full'>
-                <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-4 md:col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
+            <div className='pl-4 pt-8 md:col-span-7 grid md:grid-cols-12 w-[95%] md:w-full h-[800px] md:h-full'>
+                <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-4 md:col-span-8 rounded-t-md md:rounded-l-md md:border-r-2 border-[#3288B9]'>
                   {/* Card */}
                   <div className='grid grid-rows-7 w-[195px] h-[120px] md:w-[390px] md:h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
 
@@ -106,7 +106,7 @@ function Home() {
 
 
                 {/* Container dos botões */}
-                <div className='bg-gradient-to-bl from-[#FFD968] to-[#FAC422] col-span-4 rounded-r-md'>
+                <div className='bg-gradient-to-bl from-[#FFD968] to-[#FAC422] col-span-4 rounded-b-md md:rounded-r-md'>
                   {/* Botões */}
                   <div className='flex justify-center items-center h-full w-full'>
                     <div className=' grid grid-cols-2 indent-12'>
