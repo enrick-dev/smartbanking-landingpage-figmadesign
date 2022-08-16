@@ -94,7 +94,7 @@ function Home() {
                   </div>
                     
                   {/* Texto Circular */}
-                  <div className='relative flex justify-end pr-16 md:pr-8 translate-y-[-3rem]'>
+                  <div className='relative flex justify-end pr-12 md:pr-8 translate-y-[-3rem]'>
                     <div className='absolute h-[100px] w-[100px] md:h-[120px] md:w-[120px] flex justify-center items-center'>
                       <BiPlay className='absolute text-[#254C63]'/>
                       <img src={Ola} alt=" relative TextCircle" className='animate-spinSlow ' />
