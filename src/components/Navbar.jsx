@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../assets/Home/Nav/Besniklogo.svg'
-import { HiColorSwatch, HiOutlineShoppingBag, HiTranslate } from "react-icons/hi";
+import { HiColorSwatch, HiOutlineShoppingBag, HiMenu, HiTranslate } from "react-icons/hi";
 
 function Navbar() {
   return (
@@ -12,7 +12,7 @@ function Navbar() {
               <li className='indent-12 cursor-pointer'>contact</li>
           </ul>
           {/* Mobile menu */}
-          <div>df</div>
+          <HiMenu/>
           <div>
               <img src={Logo} alt="Logo img" className=' w-[90px] translate-x-[-80px]' />
           </div>

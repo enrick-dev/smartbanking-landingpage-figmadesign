@@ -34,7 +34,7 @@ function Home() {
       {/* Container */}
       <div className=' pt-[52px] w-full mx-auto flex flex-col items-center'>
         {/* Navbar */}
-        <Navbar/>
+        <Navbar className=' md:hidden'/>
         {/* Home */}
         <div  className='px-3 pt-[105px] bg-[#F8FCFF] w-screen max-w-[1300px] items-center justify-between  '>
           
@@ -52,26 +52,26 @@ function Home() {
             </div>
 
             {/* Container do Card*/}
-            <div className='pl-4 pt-8 md:col-span-7 grid md:grid-cols-12 w-full h-full '>
-                <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
+            <div className='pl-4 pt-8 md:col-span-7 grid md:grid-cols-12 w-full h-[800px] md:h-full'>
+                <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-4 md:col-span-8 rounded-l-md border-r-2 border-[#3288B9]'>
                   {/* Card */}
-                  <div className='grid grid-rows-7 w-[390px] h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
+                  <div className='grid grid-rows-7 w-[195px] h-[120px] md:w-[390px] md:h-[240px] rotate-[-25deg] translate-y-[-1rem] translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
 
                     <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
-                      <div className='flex items-center justify-between pl-6 pr-10 h-full w-full'>
-                        <img src={Chip} alt="Chip" className='rotate-[25deg] '/>
+                      <div className='flex items-center justify-between pl-3 pr-5 md:pl-6 md:pr-10 h-full w-full'>
+                        <img src={Chip} alt="Chip" className='rotate-[25deg] h-[25px] md:h-auto'/>
                         <div className='flex justify-between w-[48%]'>
                           <div className='flex'>
-                            <img src={n1} alt="1" className='rotate-[25deg] w-6 mx-[-3px] '/>
-                            <img src={n2} alt="2" className='rotate-[25deg] w-6 mx-[-3px]'/>
-                            <img src={n3} alt="3" className='rotate-[25deg] w-6 mx-[-3px]'/>
-                            <img src={n4} alt="4" className='rotate-[25deg] w-6 mx-[-3px]'/>
+                            <img src={n1} alt="1" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px] '/>
+                            <img src={n2} alt="2" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
+                            <img src={n3} alt="3" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
+                            <img src={n4} alt="4" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
                           </div>
                           <div className='flex'>
-                            <img src={n5} alt="5" className='rotate-[25deg] w-6 mx-[-3px]'/>
-                            <img src={n6} alt="6" className='rotate-[25deg] w-6 mx-[-3px]'/>
-                            <img src={n7} alt="7" className='rotate-[25deg] w-6 mx-[-3px]'/>
-                            <img src={n8} alt="8" className='rotate-[25deg] w-6 mx-[-3px]'/>
+                            <img src={n5} alt="5" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
+                            <img src={n6} alt="6" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
+                            <img src={n7} alt="7" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
+                            <img src={n8} alt="8" className='rotate-[25deg] w-3 md:w-6 mx-[-1.5px] md:mx-[-3px]'/>
                           </div>
                         </div>
                       </div>
@@ -79,13 +79,13 @@ function Home() {
 
                     <div className='row-span-6 bg-gradient-to-r from-[#F3FBFF] to-[#FFFFFF] flex flex-col justify-center '>
                       <div className='flex justify-center items-center'>
-                        <img src={Visa} alt="Chip" className='rotate-[25deg] '/>
+                        <img src={Visa} alt="Chip" className='rotate-[25deg] h-[33px] md:h-[auto]'/>
                       </div>
-                      <div className='flex justify-between items-end px-3 translate-y-[1.75rem]' >
-                        <h3 className='uppercase tracking-[0.2em] font-medium text-[14px] indent-2 text-[#818486]'>John smith</h3>
+                      <div className='flex justify-between items-end px-1.5 md:px-3 translate-y-[0.875rem] md:translate-y-[1.75rem]' >
+                        <h3 className='uppercase tracking-[0.2em] font-medium text-[7px] md:text-[14px] indent-2 text-[#818486]'>John smith</h3>
                         <div className='flex '>
-                          <div className='bg-[#EB001B] h-[23px] w-[23px] rounded-full opacity-90'></div>
-                          <div className='bg-[#FCCD43] h-[23px] w-[23px] rounded-full opacity-80 translate-x-[-0.5rem]'></div>
+                          <div className='bg-[#EB001B] h-[11.5px] w-[11.5px] md:h-[23px] md:w-[23px] rounded-full opacity-90'></div>
+                          <div className='bg-[#FCCD43] h-[11.5px] w-[11.5px] md:h-[23px] md:w-[23px] rounded-full opacity-80 translate-x-[-0.25rem] md:translate-x-[-0.5rem]'></div>
                           <div></div>
                         </div>
                       </div>
