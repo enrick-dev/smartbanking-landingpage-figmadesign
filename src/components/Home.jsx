@@ -110,12 +110,12 @@ function Home() {
                   {/* Botões */}
                   <div className='flex justify-center items-center h-full w-full'>
                     <div className=' grid grid-rows-2 md:grid-cols-2 grid-flow-col md:grid-flow-row indent-12'>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconCard} alt="" className='absolute group-hover:animate-buttomHome'/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo} alt="" className='absolute group-hover:animate-buttomHome'/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconForm} alt="" className='absolute group-hover:animate-buttomHome'/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] group'><img src={IconHand} alt="" className='absolute group-hover:animate-buttomHome'/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] group'><img src={IconEmail} alt="" className='absolute group-hover:animate-buttomHome'/></div>
-                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo2} alt="" className='absolute group-hover:animate-buttomHome'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconCard} alt="" className='absolute md:group-hover:animate-buttomHome animate-buttomHome1 md:animate-none'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo} alt="" className='absolute md:group-hover:animate-buttomHome animate-buttomHome4 md:animate-none'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconForm} alt="" className='absolute md:group-hover:animate-buttomHome animate-buttomHome2 md:animate-none'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] group'><img src={IconHand} alt="" className='absolute md:group-hover:animate-buttomHome animate-buttomHome5 md:animate-none'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#222223] group'><img src={IconEmail} alt="" className='absolute md:group-hover:animate-buttomHome animate-buttomHome3 md:animate-none'/></div>
+                      <div className='my-3 mx-4 p-[1.8rem] rounded-[22px] flex justify-center items-center cursor-pointer shadow-2xl bg-[#F9FDFF] group'><img src={IconInfo2} alt="" className='absolute md:group-hover:animate-buttomHome animate-buttomHome6 md:animate-none'/></div>
                     </div>
                   </div>
                 </div>
