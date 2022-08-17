@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       animation: {
         'bounceCard': 'bounceCard 1s linear infinite',
+        'cardMobile': 'CardMobile 3s infinite',
         'spinSlow': 'spin 10s linear infinite',
         'buttomHome': 'buttomHomeAnimate 2s 1',
         'buttomHome2': 'buttomHomeAnimate 2s linear 1',

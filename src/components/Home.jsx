@@ -55,7 +55,7 @@ function Home() {
             <div className=' pt-8 md:col-span-7 grid md:grid-cols-12 w-full md:w-full h-[500px] md:h-full'>
                 <div className='bg-gradient-to-br from-[#80D1FF] to-[#3fa7e3] col-span-4 md:col-span-8 rounded-t-md md:rounded-l-md md:border-r-2 border-[#3288B9]'>
                   {/* Card */}
-                  <div className='grid grid-rows-7 w-[195px] h-[120px] md:w-[390px] md:h-[240px] rotate-[-25deg] translate-y-[1rem] md:translate-y-[-1rem] translate-x-[0.5rem] md:translate-x-[-0.25rem] shadow-cardShadow hover:animate-bounceCard'>
+                  <div className='grid grid-rows-7 w-[195px] h-[120px] md:w-[390px] md:h-[240px] rotate-[-25deg] translate-y-[1rem] md:translate-y-[-1rem] translate-x-[0.5rem] md:translate-x-[-0.25rem] shadow-cardShadow animate-cardMobile md:animate-none md:hover:animate-bounceCard'>
 
                     <div className='row-span-1 flex items-center bg-gradient-to-r from-[#2B2B31] to-[#222223]'>
                       <div className='flex items-center justify-between pl-3 pr-5 md:pl-6 md:pr-10 h-full w-full'>

@@ -37,4 +37,16 @@
         }
 
     }
+    @keyframes CardMobile {
+        0%, 100% {
+            transform: rotate(0deg) rotate(-25deg);
+        }
+        70% {
+            transform: translateX(-0.5rem) rotate(-25deg);
+        }
+        35% {
+            transform: translateX(0.5rem) rotate(-25deg);
+        }
+
+    }
 }
